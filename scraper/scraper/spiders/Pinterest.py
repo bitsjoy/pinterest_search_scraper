@@ -1,5 +1,4 @@
-import scrapy 
-from .db import get_database
+import scrapy
 
 import json 
 import requests
