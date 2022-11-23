@@ -34,7 +34,7 @@ class Pinterest(scrapy.Spider):
 
         p = json.loads(response_body.decode('UTF-8'))
         results = p['resource_response']['data']['results']
-
+        print(response_body.decode('UTF-8'))
         self.next_options = p['resource']['options']
 
 
